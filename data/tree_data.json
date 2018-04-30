@@ -1,0 +1,1644 @@
+[
+    {
+        "name": "Missing data", 
+        "parent": "null", 
+        "children": [
+            {
+                "name": "data = 0.0", 
+                "parent": "Missing data", 
+                "children": [
+                    {
+                        "name": "NUM_PREV_TX", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "GENDER", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "ABO", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "INIT_STAT", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "INIT_WGT_KG", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "REM_CD", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "DAYSWAIT_CHRON", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "END_STAT", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "INIT_AGE", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "END_DATE", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "INIT_DATE", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "EXC_HCC", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "EXC_CASE", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "WL_ID_CODE", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "INIT_ASCITES", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "INIT_DIALYSIS_PRIOR_WEEK", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "INIT_ENCEPH", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "INIT_MELD_OR_PELD", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "FINAL_ASCITES", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "FINAL_DIALYSIS_PRIOR_WEEK", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "FINAL_ENCEPH", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "FINAL_MELD_OR_PELD", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "TX_DATE", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "TX_PROCEDUR_TY", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "ON_VENT_TRR", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "ARTIFICIAL_LI_TRR", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "OTH_LIFE_SUP_TRR", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "GSTATUS", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "PSTATUS", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "TXLIV", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "PREV_TX", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "AGE_DON", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "HEP_C_ANTI_DON", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "HBV_CORE_DON", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "ETHCAT_DON", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "DON_TY", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "GENDER_DON", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "RECOVERY_DATE_DON", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "NON_HRT_DON", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "BLOOD_INF_DON", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "PULM_INF_DON", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "URINE_INF_DON", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "ABO_DON", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "PT_OTH_DON", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "ECD_DONOR", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "ENCEPH_TX", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "ASCITES_TX", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "EXC_EVER", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "AGE", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "SHARE_TY", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "AGE_GROUP", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "MALIG", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "TRR_ID_CODE", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "RECOV_OUT_US", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "REFERRAL_DATE", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "TX_YEAR", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "LIST_MELD", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "TX_MELD", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "LT_ONE_WEEK_DON", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "LISTYR", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "DATA_TRANSPLANT", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "DATA_WAITLIST", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "CTR_CODE", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "OPO_CTR_CODE", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "INIT_OPO_CTR_CODE", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "END_OPO_CTR_CODE", 
+                        "parent": "data = 0.0"
+                    }, 
+                    {
+                        "name": "LISTING_CTR_CODE", 
+                        "parent": "data = 0.0"
+                    }
+                ]
+            }, 
+            {
+                "name": "0.0 < data < 50.0", 
+                "parent": "Missing data", 
+                "children": [
+                    {
+                        "name": "0.0 < data < 25.0", 
+                        "parent": "0.0 < data < 50.0", 
+                        "children": [
+                            {
+                                "name": "0.0 < data < 12.5", 
+                                "parent": "0.0 < data < 25.0", 
+                                "children": [
+                                    {
+                                        "name": "WGT_KG_TCR", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "HGT_CM_TCR", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "BMI_TCR", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "EDUCATION", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "LIFE_SUP_TCR", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "FUNC_STAT_TCR", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "PRI_PAYMENT_TCR", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "DGN_TCR", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "DIAB", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "MALIG_TCR", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "INIT_HGT_CM", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "INIT_BMI_CALC", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "END_BMI_CALC", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "PERM_STATE", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "CITIZENSHIP", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "PREV_AB_SURG_TCR", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "BACT_PERIT_TCR", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "PORTAL_VEIN_TCR", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "TIPSS_TCR", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "INIT_ALBUMIN", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "INIT_BILIRUBIN", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "INIT_INR", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "INIT_MELD_PELD_LAB_SCORE", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "INIT_SERUM_CREAT", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "FINAL_ALBUMIN", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "FINAL_BILIRUBIN", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "FINAL_INR", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "FINAL_MELD_PELD_LAB_SCORE", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "FINAL_SERUM_CREAT", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "FUNC_STAT_TRR", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "MED_COND_TRR", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "PRI_PAYMENT_TRR", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "PERM_STATE_TRR", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "WORK_INCOME_TRR", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "LIFE_SUP_TRR", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "PORTAL_VEIN_TRR", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "PREV_AB_SURG_TRR", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "TIPSS_TRR", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "ACUTE_REJ_EPI", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "HBV_CORE", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "HBV_SUR_ANTIGEN", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "HCV_SEROSTATUS", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "EBV_SEROSTATUS", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "HIV_SEROSTATUS", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "CMV_STATUS", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "GTIME", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "PTIME", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "PX_STAT", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "DA1", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "DA2", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "DB1", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "DB2", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "DDR1", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "DDR2", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "DDAVP_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "CMV_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "HBV_SUR_ANTIGEN_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "CITIZENSHIP_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "COD_CAD_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "DEATH_CIRCUM_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "DEATH_MECH_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "HOME_STATE_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "ANTIHYPE_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "BUN_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "CREAT_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "PT_DIURETICS_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "PT_STEROIDS_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "PT_T3_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "PT_T4_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "SGOT_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "SGPT_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "TBILI_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "VASODIL_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "VDRL_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "CLIN_INFECT_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "EXTRACRANIAL_CANCER_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "CANCER_SITE_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "HIST_CIG_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "HIST_COCAINE_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "HIST_DIABETES_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "DIABETES_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "HIST_HYPERTENS_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "HIST_OTH_DRUG_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "INTRACRANIAL_CANCER_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "SKIN_CANCER_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "HIST_CANCER_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "HEPARIN_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "ARGININE_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "INSULIN_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "HGT_CM_DON_CALC", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "WGT_KG_DON_CALC", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "BMI_DON_CALC", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "CREAT_TX", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "TBILI_TX", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "INR_TX", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "ALBUMIN_TX", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "DIAL_TX", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "MELD_PELD_LAB_SCORE", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "PX_STAT_DATE", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "DISCHARGE_DATE", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "LITYP", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "GRF_STAT", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "LOS", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "DIAG", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "DISTANCE", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "COLD_ISCH", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "HGT_CM_CALC", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "WGT_KG_CALC", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "BMI_CALC", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "ADMISSION_DATE", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "TATTOOS", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "LI_BIOPSY", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "PROTEIN_URINE", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "CARDARREST_NEURO", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "INOTROP_SUPPORT_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "TRANSFUS_TERM_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "CDC_RISK_HIV_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "HISTORY_MI_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "PH_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "HEMATOCRIT_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }, 
+                                    {
+                                        "name": "CORONARY_ANGIO_DON", 
+                                        "parent": "0.0 < data < 12.5"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "name": "12.5 <= data < 25.0", 
+                                "parent": "0.0 < data < 25.0", 
+                                "children": [
+                                    {
+                                        "name": "WORK_INCOME_TCR", 
+                                        "parent": "12.5 <= data < 25.0"
+                                    }, 
+                                    {
+                                        "name": "INIT_SERUM_SODIUM", 
+                                        "parent": "12.5 <= data < 25.0"
+                                    }, 
+                                    {
+                                        "name": "FINAL_SERUM_SODIUM", 
+                                        "parent": "12.5 <= data < 25.0"
+                                    }, 
+                                    {
+                                        "name": "MALIG_TRR", 
+                                        "parent": "12.5 <= data < 25.0"
+                                    }, 
+                                    {
+                                        "name": "CMV_IGG", 
+                                        "parent": "12.5 <= data < 25.0"
+                                    }, 
+                                    {
+                                        "name": "CMV_IGM", 
+                                        "parent": "12.5 <= data < 25.0"
+                                    }, 
+                                    {
+                                        "name": "PT_OTH1_OSTXT_DON", 
+                                        "parent": "12.5 <= data < 25.0"
+                                    }, 
+                                    {
+                                        "name": "HBSAB_DON", 
+                                        "parent": "12.5 <= data < 25.0"
+                                    }, 
+                                    {
+                                        "name": "EBV_IGG_CAD_DON", 
+                                        "parent": "12.5 <= data < 25.0"
+                                    }, 
+                                    {
+                                        "name": "EBV_IGM_CAD_DON", 
+                                        "parent": "12.5 <= data < 25.0"
+                                    }
+                                ]
+                            }
+                        ]
+                    }, 
+                    {
+                        "name": "25.0 <= data < 50.0", 
+                        "parent": "0.0 < data < 50.0", 
+                        "children": [
+                            {
+                                "name": "25.0 <= data < 37.5", 
+                                "parent": "25.0 <= data < 50.0", 
+                                "children": [
+                                    {
+                                        "name": "TRTREJ6M", 
+                                        "parent": "25.0 <= data < 37.5"
+                                    }, 
+                                    {
+                                        "name": "TRTREJ1Y", 
+                                        "parent": "25.0 <= data < 37.5"
+                                    }, 
+                                    {
+                                        "name": "PT_OTH2_OSTXT_DON", 
+                                        "parent": "25.0 <= data < 37.5"
+                                    }, 
+                                    {
+                                        "name": "ADMIT_DATE_DON", 
+                                        "parent": "25.0 <= data < 37.5"
+                                    }, 
+                                    {
+                                        "name": "LV_EJECT_DON", 
+                                        "parent": "25.0 <= data < 37.5"
+                                    }, 
+                                    {
+                                        "name": "LV_EJECT_METH_DON", 
+                                        "parent": "25.0 <= data < 37.5"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "name": "37.5 <= data < 50.0", 
+                                "parent": "25.0 <= data < 50.0", 
+                                "children": [
+                                    {
+                                        "name": "MELD_DIFF_REASON_CD", 
+                                        "parent": "37.5 <= data < 50.0"
+                                    }, 
+                                    {
+                                        "name": "FUNC_STAT_TRF", 
+                                        "parent": "37.5 <= data < 50.0"
+                                    }, 
+                                    {
+                                        "name": "OTHER_INF_DON", 
+                                        "parent": "37.5 <= data < 50.0"
+                                    }, 
+                                    {
+                                        "name": "INO_PROCURE_AGENT_1", 
+                                        "parent": "37.5 <= data < 50.0"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "name": "50.0 <= data < 100.0", 
+                "parent": "Missing data", 
+                "children": [
+                    {
+                        "name": "50.0 <= data < 75.0", 
+                        "parent": "50.0 <= data < 100.0", 
+                        "children": [
+                            {
+                                "name": "50.0 <= data < 62.5", 
+                                "parent": "50.0 <= data < 75.0", 
+                                "children": [
+                                    {
+                                        "name": "AMIS", 
+                                        "parent": "50.0 <= data < 62.5"
+                                    }, 
+                                    {
+                                        "name": "BMIS", 
+                                        "parent": "50.0 <= data < 62.5"
+                                    }, 
+                                    {
+                                        "name": "DRMIS", 
+                                        "parent": "50.0 <= data < 62.5"
+                                    }, 
+                                    {
+                                        "name": "HLAMIS", 
+                                        "parent": "50.0 <= data < 62.5"
+                                    }, 
+                                    {
+                                        "name": "RA1", 
+                                        "parent": "50.0 <= data < 62.5"
+                                    }, 
+                                    {
+                                        "name": "RA2", 
+                                        "parent": "50.0 <= data < 62.5"
+                                    }, 
+                                    {
+                                        "name": "RB1", 
+                                        "parent": "50.0 <= data < 62.5"
+                                    }, 
+                                    {
+                                        "name": "RB2", 
+                                        "parent": "50.0 <= data < 62.5"
+                                    }, 
+                                    {
+                                        "name": "RDR1", 
+                                        "parent": "50.0 <= data < 62.5"
+                                    }, 
+                                    {
+                                        "name": "RDR2", 
+                                        "parent": "50.0 <= data < 62.5"
+                                    }, 
+                                    {
+                                        "name": "PT_OTH3_OSTXT_DON", 
+                                        "parent": "50.0 <= data < 62.5"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "name": "62.5 <= data < 75.0", 
+                                "parent": "50.0 <= data < 75.0", 
+                                "children": [
+                                    {
+                                        "name": "DGN2_TCR", 
+                                        "parent": "62.5 <= data < 75.0"
+                                    }, 
+                                    {
+                                        "name": "EXC_DIAG_ID", 
+                                        "parent": "62.5 <= data < 75.0"
+                                    }, 
+                                    {
+                                        "name": "HCC_EVER_APPR", 
+                                        "parent": "62.5 <= data < 75.0"
+                                    }, 
+                                    {
+                                        "name": "COD", 
+                                        "parent": "62.5 <= data < 75.0"
+                                    }, 
+                                    {
+                                        "name": "PULM_INF_CONF_DON", 
+                                        "parent": "62.5 <= data < 75.0"
+                                    }, 
+                                    {
+                                        "name": "CONTIN_CIG_DON", 
+                                        "parent": "62.5 <= data < 75.0"
+                                    }, 
+                                    {
+                                        "name": "CONTIN_OTH_DRUG_DON", 
+                                        "parent": "62.5 <= data < 75.0"
+                                    }, 
+                                    {
+                                        "name": "DIET_DON", 
+                                        "parent": "62.5 <= data < 75.0"
+                                    }, 
+                                    {
+                                        "name": "DIURETICS_DON", 
+                                        "parent": "62.5 <= data < 75.0"
+                                    }, 
+                                    {
+                                        "name": "OTHER_HYPERTENS_MED_DON", 
+                                        "parent": "62.5 <= data < 75.0"
+                                    }, 
+                                    {
+                                        "name": "HYPERTENS_DUR_DON", 
+                                        "parent": "62.5 <= data < 75.0"
+                                    }, 
+                                    {
+                                        "name": "EVER_APPROVED", 
+                                        "parent": "62.5 <= data < 75.0"
+                                    }, 
+                                    {
+                                        "name": "COMPOSITE_DEATH_DATE", 
+                                        "parent": "62.5 <= data < 75.0"
+                                    }, 
+                                    {
+                                        "name": "MACRO_FAT_LI_DON", 
+                                        "parent": "62.5 <= data < 75.0"
+                                    }, 
+                                    {
+                                        "name": "MICRO_FAT_LI_DON", 
+                                        "parent": "62.5 <= data < 75.0"
+                                    }
+                                ]
+                            }
+                        ]
+                    }, 
+                    {
+                        "name": "75.0 <= data < 100.0", 
+                        "parent": "50.0 <= data < 100.0", 
+                        "children": [
+                            {
+                                "name": "75.0 <= data < 87.5", 
+                                "parent": "75.0 <= data < 100.0", 
+                                "children": [
+                                    {
+                                        "name": "HCC_DIAGNOSIS_TCR", 
+                                        "parent": "75.0 <= data < 87.5"
+                                    }, 
+                                    {
+                                        "name": "ENCEPH_TCR", 
+                                        "parent": "75.0 <= data < 87.5"
+                                    }, 
+                                    {
+                                        "name": "ASCITES_TCR", 
+                                        "parent": "75.0 <= data < 87.5"
+                                    }, 
+                                    {
+                                        "name": "MUSCLE_WAST_TCR", 
+                                        "parent": "75.0 <= data < 87.5"
+                                    }, 
+                                    {
+                                        "name": "INOTROPES", 
+                                        "parent": "75.0 <= data < 87.5"
+                                    }, 
+                                    {
+                                        "name": "VAD_TAH", 
+                                        "parent": "75.0 <= data < 87.5"
+                                    }, 
+                                    {
+                                        "name": "IABP", 
+                                        "parent": "75.0 <= data < 87.5"
+                                    }, 
+                                    {
+                                        "name": "PGE", 
+                                        "parent": "75.0 <= data < 87.5"
+                                    }, 
+                                    {
+                                        "name": "ECMO", 
+                                        "parent": "75.0 <= data < 87.5"
+                                    }, 
+                                    {
+                                        "name": "HBV_SURF_TOTAL", 
+                                        "parent": "75.0 <= data < 87.5"
+                                    }, 
+                                    {
+                                        "name": "HCC_DIAG", 
+                                        "parent": "75.0 <= data < 87.5"
+                                    }, 
+                                    {
+                                        "name": "PREV_MALIG_TY", 
+                                        "parent": "75.0 <= data < 87.5"
+                                    }, 
+                                    {
+                                        "name": "CONTIN_COCAINE_DON", 
+                                        "parent": "75.0 <= data < 87.5"
+                                    }, 
+                                    {
+                                        "name": "MALIG_TYPE", 
+                                        "parent": "75.0 <= data < 87.5"
+                                    }, 
+                                    {
+                                        "name": "INO_PROCURE_AGENT_2", 
+                                        "parent": "75.0 <= data < 87.5"
+                                    }, 
+                                    {
+                                        "name": "CORONARY_ANGIO_NORM_DON", 
+                                        "parent": "75.0 <= data < 87.5"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "name": "87.5 <= data < 100.0", 
+                                "parent": "75.0 <= data < 100.0", 
+                                "children": [
+                                    {
+                                        "name": "COD_OSTXT_WL", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "CITIZEN_COUNTRY", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "OTH_LIFE_SUP_OSTXT_TCR", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "DGN_OSTXT_TCR", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "DGN2_OSTXT_TCR", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "NEOADJUVANT_THERAPY_TCR", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "EXC_OTHER_DIAG", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "WLHR", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "WLIN", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "WLKI", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "WLKP", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "WLLU", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "WLPA", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "YR_ENTRY_US_TCR", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "ACADEMIC_PRG_TCR", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "ACADEMIC_LEVEL_TCR", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "PRI_PAYMENT_CTRY_TCR", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "ACADEMIC_LEVEL_TRR", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "ACADEMIC_PRG_TRR", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "PRI_PAYMENT_CTRY_TRR", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "MALIG_OSTXT_TRR", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "MALIG_TY_TRR", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "COD_OSTXT", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "COD2", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "COD2_OSTXT", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "COD3", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "COD3_OSTXT", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "PRVTXDIF", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "RETXDATE", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "PREV_MALIG_TY_OSTXT", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "WARM_ISCH_TM_DON", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "DIABDUR_DON", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "COD_OSTXT_DON", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "CORE_COOL_DON", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "BLOOD_INF_CONF_DON", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "DOBUT_DON_OLD", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "DOPAMINE_DON_OLD", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "HTLV1_OLD_DON", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "HTLV2_OLD_DON", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "OTH_DON_MED1_OSTXT_DON_OLD", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "OTH_DON_MED2_OSTXT_DON_OLD", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "OTH_DON_MED3_OSTXT_DON_OLD", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "OTHER_INF_CONF_DON", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "OTHER_INF_OSTXT_DON", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "PRETREAT_MED_DON_OLD", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "PT_OTH4_OSTXT_DON", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "URINE_INF_CONF_DON", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "CANCER_FREE_INT_DON", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "CANCER_OTH_OSTXT_DON", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "CONTIN_ALCOHOL_OLD_DON", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "CONTIN_IV_DRUG_OLD_DON", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "HIST_ALCOHOL_OLD_DON", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "HIST_IV_DRUG_OLD_DON", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "HIST_INSULIN_DEP_DON", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "INSULIN_DEP_DON", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "ENCEPH_TRR_OLD", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "ASCITES_TRR_OLD", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "GRF_FAIL_DATE", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "PREV_TX_DATE", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "PRI_GRF_FAIL", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "VASC_THROMB", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "BILIARY", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "HEP_DENOVO", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "HEP_RECUR", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "RECUR_DISEASE", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "REJ_ACUTE", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "INFECT", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "GRF_FAIL_CAUSE_OSTXT", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "DIFFUSE_CHOLANG", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "HEPATIC_ART_THROM", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "OTHER_VASC_THROMB", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "HEPATIC_OUT_OBS", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "PORTAL_VEIN_THROM", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "PRI_NON_FUNC", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "REJ_CHRONIC", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "PX_NON_COMPL", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "DIAG_OSTXT", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "MALIG_TY_OSTXT", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "DIS_SGOT", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "DIS_ALKPHOS", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "RECOV_COUNTRY", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "CONTROLLED_DON", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "RESUSCIT_DUR", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "TRANSFUS_INTRAOP_NUM_OLD_DON", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "TRANSFUS_PRIOR_NUM_OLD_DON", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "VESSELS_NUM_STEN_DON", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "INO_PROCURE_AGENT_3", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "INO_PROCURE_OSTXT_1", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "INO_PROCURE_OSTXT_2", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }, 
+                                    {
+                                        "name": "INO_PROCURE_OSTXT_3", 
+                                        "parent": "87.5 <= data < 100.0"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "name": "data = 100.0", 
+                "parent": "Missing data", 
+                "children": [
+                    {
+                        "name": "COD_WL", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "DEATH_DATE", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "WLHL", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "WLLI", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "WLPI", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "INIT_CTP_SCORE", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "FINAL_CTP_SCORE", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "TXHRT", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "TXINT", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "TXKID", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "TXLNG", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "TXPAN", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "CLSTR_OLD", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "CLSTRTYP_OLD", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "HBEAB_OLD", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "HEPD_OLD", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "MRCREATG_OLD", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "PREV_PI_TX_TCR_ARCHIVE", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "TOT_SERUM_ALBUM", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "CMV_OLD_LIV_DON", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "CMV_TEST_DON", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "EBV_TEST_DON", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "HBV_TEST_DON", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "HCV_TEST_DON", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "CMV_NUCLEIC_DON", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "CMV_IGG_DON", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "CMV_IGM_DON", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "HCV_RIBA_DON", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "HCV_ANTIBODY_DON", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "HBV_DNA_DON", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "HCV_RNA_DON", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "LIV_DON_TY", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "LIV_DON_TY_OSTXT", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "MULTIORG", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "EDUCATION_DON", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "PRI_PAYMENT_DON", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "PRI_PAYMENT_CTRY_DON", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "MEDICARE_DON", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "MEDICAID_DON", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "OTH_GOVT_DON", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "PRIV_INS_DON", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "HMO_PPO_DON", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "SELF_DON", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "DONATION_DON", 
+                        "parent": "data = 100.0"
+                    }, 
+                    {
+                        "name": "FREE_DON", 
+                        "parent": "data = 100.0"
+                    }
+                ]
+            }
+        ]
+    }
+]

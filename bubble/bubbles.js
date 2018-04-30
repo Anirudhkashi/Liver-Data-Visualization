@@ -5,43 +5,11 @@ height = 530;
 d3.select("#bubbleChart").append("svg")
     .attr("width", width)
     .attr("height", height)
-	.attr("id", "primarySVG");
+  .attr("id", "primarySVG");
  
  
-changeLiver('liver1');
- 
-$("label.cycleBtn").click(function() {
-	changeLiver(this.id);
-	
-	});
- 
-	
-function changeLiver(year){
-	var CSVliver1 = 'bubbleChartLiver1.csv';
-	var CSVliver2 = 'bubbleChartLiver2.csv';
-  var CSVliver3 = 'bubbleChartLiver3.csv';
-  var CSVliver4 = 'bubbleChartLiver4.csv';
-  var CSVliver5 = 'bubbleChartLiver5.csv';
-  var CSVliver6 = 'bubbleChartLiver6.csv';
-  var CSVliver7 = 'bubbleChartLiver7.csv';
-  var CSVliver8 = 'bubbleChartLiver8.csv';
-	if (year === 'liver1'){
-		var dataSource = CSVliver1;
-	} else if(year === 'liver2') {
-    var dataSource = CSVliver2;
-  } else if(year === 'liver3') {
-    var dataSource = CSVliver3;
-  } else if(year === 'liver4') {
-    var dataSource = CSVliver4;
-  } else if(year === 'liver5') {
-    var dataSource = CSVliver5;
-  } else if(year === 'liver6') {
-    var dataSource = CSVliver6;
-  } else if(year === 'liver7') {
-    var dataSource = CSVliver7;
-  } else {
-    var dataSource = CSVliver8;
-  }
+  
+var dataSource = '../data/missing_data.csv';
  
  
 d3.csv(dataSource, function(error, data) {
@@ -50,7 +18,7 @@ data.sort(function(a,b) {return b.ratingClassValue - a.ratingClassValue;});
  
  
 var svg = d3.select("#primarySVG");
-	
+  var lowColor = "#FFFF00";
  
  
 //set bubble padding
@@ -74,24 +42,25 @@ var padding = 4;
       };
     });
  
-	map = d3.layout.pack().size(size);
+  map = d3.layout.pack().size(size);
           map.nodes({children: centers});
  
     return centers;
   };
  
-	var nodes = svg.selectAll("g")
-		.data(data);
-	
-	var g = nodes.enter().append("g")
+  var nodes = svg.selectAll("g")
+    .data(data);
+  
+  var g = nodes.enter().append("g")
    
   g.append("circle")
     //.attr("class", "node")
      .attr("class", function(d) {
-      return d.ratingCategory;
-    })   
+      return d.Feature;
+    })
+     .attr("fill", "#FFFF00")
     .attr("r", 2)
-	  .attr("id", function(d){return d.objectName;})
+    .attr("id", function(d){return d.Feature;})
     .on("mouseover", function(d) {
       showPopover.call(this, d);
     })
@@ -99,12 +68,12 @@ var padding = 4;
       removePopovers();
     });
  
-	g.append("text")
-		.attr("dx",12)
-		.attr("dy",".35em")
-		.text(function(d){
-			//return d.objectName;
-		});
+  g.append("text")
+    .attr("dx",12)
+    .attr("dy",".35em")
+    .text(function(d){
+      //return d.objectName;
+    });
 
 
   /*var nodes = svg.selectAll("circle")
@@ -138,59 +107,60 @@ var padding = 4;
       return d.objectName;
     });*/
  
-		
-	
+    
+  
   nodes.transition()
-	.duration(500)
+  .duration(500)
     .attr("r", function(d) {
-	return d.radius;})
-	;
+  return d.radius;})
+  ;
  
   var force = d3.layout.force();
   
  
-  draw('reset');
+  draw('Missing');
  
  $("label.ratingBtn").click(function() {
-   	draw(this.id);
-	});
+    draw(this.id);
+  });
   
   
  
  function draw(varname) {
- 	d3.selectAll("circle").attr("r",10);
-	var centers = getCenters(varname, [width, height]);
+  d3.selectAll("circle").attr('r', 10);
+  d3.selectAll("circle").attr('fill', lowColor);
+  var centers = getCenters(varname, [width, height]);
     force.on("tick", tick(centers, varname));
-    labels(centers);
-	nodes.attr("class", function(d) {
+    //labels(centers);
+  nodes.attr("class", function(d) {
       return d[varname];
     });
     force.start();
-	makeClickable();
+  makeClickable();
   }
  
-	
-	function tick (centers, varname) {
-	  var foci = {};
-	  for (var i = 0; i < centers.length; i++) {
-		foci[centers[i].name] = centers[i];
-	  }
-	  return function (e) {
-		for (var i = 0; i < data.length; i++) {
-		  var o = data[i];
-		  var f = foci[o[varname]];
-		  o.y += (f.y - o.y) * e.alpha;
-		  o.x += (f.x - o.x) * e.alpha;
-		 }
-		 nodes.each(collide(.2))
-		   .attr("transform", function(d){
-       	return "translate(" + d.x + "," + d.y + ")";
-     	});
+  
+  function tick (centers, varname) {
+    var foci = {};
+    for (var i = 0; i < centers.length; i++) {
+    foci[centers[i].name] = centers[i];
+    }
+    return function (e) {
+    for (var i = 0; i < data.length; i++) {
+      var o = data[i];
+      var f = foci[o[varname]];
+      o.y += (f.y - o.y) * e.alpha;
+      o.x += (f.x - o.x) * e.alpha;
+     }
+     nodes.each(collide(.2))
+       .attr("transform", function(d){
+        return "translate(" + d.x + "," + d.y + ")";
+      });
       
-	  }
-	}
-	
-		
+    }
+  }
+  
+    
   function labels(centers) {
     svg.selectAll(".label").remove();
  
@@ -200,7 +170,7 @@ var padding = 4;
       .text(function(d) {
         return d.name;
       })
-	.attr("transform", function (d) {
+  .attr("transform", function (d) {
             return "translate(" + (d.x - ((d.name.length)*3)) + ", " + (d.y + 15 - d.r) + ")";
           });     
  
@@ -220,7 +190,7 @@ var padding = 4;
       trigger: 'manual',
       html: true,
       content: function() {
-        return "Recipient ID: " + d.objectName + "</br>Success Ratio After 90 days: " + d.riskCategory1 + "</br>Success Ratio After 180 days: " + d.riskCategory2;
+        return "Feature: " + d.Feature + "</br>Missing % : " + d.Missing;
       }
     });
     $(this).popover('show');
@@ -313,23 +283,22 @@ var padding = 4;
     .attr("stop-color", "#FE2E2E")
     .attr("stop-opacity", 1);
  
-	
+  
  
-	function makeClickable () {
-		
-				
-	$("circle").click(function() {
-   	console.log(this.id);
-	});
-	
-	var nest = d3.nest()
-		.key(function(d){return d.objectName;})
-		.entries(data);
-		
-	
-	}
-	nodes.exit().remove();
-		
-	
+  function makeClickable () {
+    
+        
+  $("circle").click(function() {
+    console.log(this.id);
+  });
+  
+  var nest = d3.nest()
+    .key(function(d){return d.objectName;})
+    .entries(data);
+    
+  
+  }
+  nodes.exit().remove();
+    
+  
 });
-}

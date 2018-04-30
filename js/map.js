@@ -47,12 +47,12 @@ d3.json("data/usa2.json", function(error, world) {
 
 
 
-    d3.csv("data/liver_status.csv", function(error, data) {
-        var legend1 = svg_3.append('g').attr('id','map_legend');
+    d3.csv("data/liver_status_new.csv", function(error, data) {
+        // var legend1 = svg_3.append('g').attr('id','map_legend');
         var myScale = d3.scaleLinear()
                           .domain([0, 10])
                           .range([65, 90])
-        var legend2 = svg_3.append('g').attr('id','map_legend_2');
+        // var legend2 = svg_3.append('g').attr('id','map_legend_2');
         var state_map = {}
         var region_map = {}
         var state_data = d3.nest()
@@ -70,6 +70,7 @@ d3.json("data/usa2.json", function(error, world) {
                 return {
                     count: v.length,
                     status_3_m: d3.mean(v, function(d) { return d['status_3_m']; }),
+                    status_6_m: d3.mean(v, function(d) { return d['status_6_m']; }),
                     status_1_y: d3.mean(v, function(d) { return d['status_1_y']; }),
                     status_3_y: d3.mean(v, function(d) { return d['status_3_y']; }),
                     WaitingTime: d3.mean(v, function(d) { return d['WaitingTime']; }),
@@ -84,6 +85,7 @@ d3.json("data/usa2.json", function(error, world) {
                 return {
                     count: v.length,
                     status_3_m: d3.mean(v, function(d) { return d['status_3_m']; }),
+                    status_6_m: d3.mean(v, function(d) { return d['status_6_m']; }),
                     status_1_y: d3.mean(v, function(d) { return d['status_1_y']; }),
                     status_3_y: d3.mean(v, function(d) { return d['status_3_y']; }),
                     WaitingTime: d3.mean(v, function(d) { return d['WaitingTime']; }),
@@ -131,8 +133,8 @@ d3.json("data/usa2.json", function(error, world) {
                 var rateOrwait = 'Success Rate: '
                 d3.select('#rank').transition().text('Success Rate(%)')
         	}
-            legend2.selectAll('text')
-                .text(function(d){return parseInt(myScale(d)).toLocaleString()});
+            // legend2.selectAll('text')
+            //     .text(function(d){return parseInt(myScale(d)).toLocaleString()});
             d3.select('#map_legend').style("display", "inline");
             d3.select('#map_legend_2').style("display", "inline");
             for (i = 0; i < avg_data.length; i++) {
@@ -208,36 +210,36 @@ d3.json("data/usa2.json", function(error, world) {
         //     .attr("dy", "1em")
         //     .style("text-anchor", "middle")
         //     .attr('transform', 'translate(820, 470) rotate(' + 90 + ')');
-          legend1.selectAll('rect')
-            .data([0,1,2,3,4,5,6,7,8,9,10])
-            .enter()
-            .append('rect')
-            .attr('x', function(d){return 20 *(d + 33);})
-            .attr('y', h - 40)
-            .attr('width', function(d){return 20})
-            .attr('height', 20)
-            .style('fill', function(d){
-              var res = 4.0 * (d / 10) + 91
-              return ramp(res);
-            })
-          legend2.selectAll('text')
-            .data([0,3,7,10])
-            .enter()
-            .append('text')
-            .style('text-anchor', 'middle')
-            .attr('x', function(d){return 20 *(d + 33);})
-            .attr('y', h - 50)
-            .text(function(d){return parseInt(myScale(d)).toLocaleString()});
+          // legend1.selectAll('rect')
+          //   .data([0,1,2,3,4,5,6,7,8,9,10])
+          //   .enter()
+          //   .append('rect')
+          //   .attr('x', function(d){return 20 *(d + 33);})
+          //   .attr('y', h - 40)
+          //   .attr('width', function(d){return 20})
+          //   .attr('height', 20)
+          //   .style('fill', function(d){
+          //     var res = 4.0 * (d / 10) + 91
+          //     return ramp(res);
+          //   })
+          // legend2.selectAll('text')
+          //   .data([0,3,7,10])
+          //   .enter()
+          //   .append('text')
+          //   .style('text-anchor', 'middle')
+          //   .attr('x', function(d){return 20 *(d + 33);})
+          //   .attr('y', h - 50)
+          //   .text(function(d){return parseInt(myScale(d)).toLocaleString()});
 
-          legend2.selectAll('rect')
-            .data([0,3,7,10])
-            .enter()
-            .append('rect')
-            .attr('x', function(d){return 20 *(d + 33);})
-            .attr('y', h - 44)
-            .attr('width', function(d){return 3})
-            .attr('height', 24)
-            .text(function(d){return parseInt(myScale(d))})
+          // legend2.selectAll('rect')
+          //   .data([0,3,7,10])
+          //   .enter()
+          //   .append('rect')
+          //   .attr('x', function(d){return 20 *(d + 33);})
+          //   .attr('y', h - 44)
+          //   .attr('width', function(d){return 3})
+          //   .attr('height', 24)
+          //   .text(function(d){return parseInt(myScale(d))})
 
         //console.log(avg_data)
     });
