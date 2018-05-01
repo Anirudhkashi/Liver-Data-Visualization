@@ -130,7 +130,7 @@ d3.json("data/usa2.json", function(error, world) {
                 var myScale = d3.scaleLinear()
                           .domain([0, 10])
                           .range([max_value, min_value]);
-                var rateOrwait = 'Success Rate: '
+                var rateOrwait = 'Success Rate(%): '
                 d3.select('#rank').transition().text('Success Rate(%)')
         	}
             // legend2.selectAll('text')
